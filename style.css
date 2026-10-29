@@ -151,22 +151,26 @@ section {
 .ol1 h2 {
     font-size: 12px;
 }
-.sec2{
+
+.sec2 {
     text-align: center;
     font-size: 50px;
     padding-top: 50px;
     color: white;
 }
-.sec22{
+
+.sec22 {
     text-align: center;
     font-size: 20px;
     color: white;
 
 }
-body{
+
+body {
     background-color: #252B42;
 }
-.ll{
+
+.ll {
     border: 1px solid white;
     width: 700px;
     text-align: center;
@@ -176,11 +180,13 @@ body{
     margin-left: 230px;
     margin-top: 100px;
 }
-.ka{
+
+.ka {
     max-width: 1200px;
     margin: 0 auto;
 }
-.app{
+
+.app {
     width: 200px;
     display: flex;
     align-items: center;
@@ -190,7 +196,8 @@ body{
     border-radius: 10px;
     color: white;
 }
-.lj{
+
+.lj {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -198,15 +205,18 @@ body{
     padding-top: 150px;
     padding-bottom: 100px;
 }
-.op{
+
+.op {
     max-width: 1200px;
     margin: 0 auto;
 }
-.f h1{
+
+.f h1 {
     font-size: 20px;
     color: #23A6F0;
 }
-.f{
+
+.f {
     background-color: white;
     width: 400px;
     display: flex;
@@ -216,7 +226,8 @@ body{
     border-radius: 10px;
     height: 200px;
 }
-.btn3{
+
+.btn3 {
     width: 100px;
     background-color: #23A6F0;
     color: white;
@@ -224,7 +235,8 @@ body{
     border-radius: 5px;
     padding: 10px;
 }
-.d{
+
+.d {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -232,9 +244,57 @@ body{
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.sec4{
+
+.sec4 {
     max-width: 1200px;
     margin: 0 auto;
+}
+.map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    color: white;
+    padding-top: 50px;
+}
+.map h1{
+    font-size: 40px;
+}
+.mard{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 150px;
+   background-color: white;
+   width: 800px;
+   max-width: 1200px;
+   margin: 0 auto;
+   margin-top: 50px;
+
+}
+.mrd{
+    width: 250px;
+}
+.inp{
+    width: 270px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #E6E6E6;
+    background-color: #F9F9F9;
+}
+.kl{
+    text-align: center;
+}
+.mm button{
+    width: 290px;
+    padding: 10px;
+    background-color: #23A6F0;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+.mrd2{
+    display: none;
 }
 
 
@@ -348,26 +408,54 @@ body{
     .set {
         display: flex;
     }
-    .ll{
+
+    .ll {
         width: 250px;
         margin-left: 50px;
     }
-    .op{
+
+    .op {
         flex-direction: column;
     }
-    .lj{
+
+    .lj {
         flex-direction: column;
         padding-top: 50px;
         gap: 50px;
     }
-    .sec4{
+
+    .sec4 {
         flex-direction: column;
     }
-    .d{
+
+    .d {
         flex-direction: column;
     }
-    .f{
+
+    .f {
         width: 250px;
         display: block;
+    }
+    .map{
+        flex-direction: column;
+    }
+    .mard{
+        flex-direction: column;
+        width: 390px;
+        padding-bottom: 50px;
+        top: 5800px;
+        left: 0px;
+        gap: 10px;
+    }
+    .mrd{
+        display: none;
+    }
+    .mrd2{
+        display: flex;
+        width: 390px;
+
+    }
+    .mp{
+        width: 390px;
     }
 }
