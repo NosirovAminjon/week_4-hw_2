@@ -180,7 +180,28 @@ body{
     max-width: 1200px;
     margin: 0 auto;
 }
-
+.app{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.lj{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.op{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 
 
@@ -296,5 +317,13 @@ body{
     .ll{
         width: 250px;
         margin-left: 50px;
+    }
+    .op{
+        flex-direction: column;
+    }
+    .lj{
+        flex-direction: column;
+        padding-top: 50px;
+        gap: 50px;
     }
 }
