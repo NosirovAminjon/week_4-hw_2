@@ -313,7 +313,13 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
-
+.hh{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    
+}
 
 
 
@@ -479,5 +485,9 @@ body {
         padding-left: 70px;
         gap: 20px;
         padding-bottom: 50px;
+    }
+    .hh{
+        text-align: center;
+        font-size: 25px;
     }
 }
