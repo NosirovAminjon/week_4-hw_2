@@ -296,7 +296,23 @@ body {
 .mrd2{
     display: none;
 }
-
+.o1{
+    color: white;
+}
+.ii{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.p1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 
 
@@ -457,5 +473,11 @@ body {
     }
     .mp{
         width: 390px;
+    }
+    .p1{
+        flex-direction: column;
+        padding-left: 70px;
+        gap: 20px;
+        padding-bottom: 50px;
     }
 }
